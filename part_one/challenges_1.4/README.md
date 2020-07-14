@@ -8,7 +8,7 @@ Challenges:
 No. There's not guarantee that the page links to itself. (Identity is not quaranteed)
 
 
-### 5.Is Facebook a category, with people as objects and friendships as morphisms?
+### 5. Is Facebook a category, with people as objects and friendships as morphisms?
 
 No again. One is not friends with oneselve.
 
