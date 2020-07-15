@@ -7,6 +7,10 @@ Challenges:
 
 No. There's not guarantee that the page links to itself. (Identity is not quaranteed)
 
+#### Are links morphisms. 
+
+Yes. 
+
 
 ### 5. Is Facebook a category, with people as objects and friendships as morphisms?
 
