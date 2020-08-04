@@ -47,3 +47,12 @@ X | X OR False
 
 
 Similar for `&&`, we can enumarate for associativity, and for neutral element which is True. 
+
+> 4. Represent the Bool monoid with the AND operator as a category: List the morphisms and their rules of composition.
+
+`and_True(x)` is the identity morphism
+`and_False(x)` is the same as `x && False`  
+`const_False(x)` just returns `False`
+`const_True(x)` just returns `True` 
+
+All can be composed (because it's a monoid). 
