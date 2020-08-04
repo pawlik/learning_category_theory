@@ -56,3 +56,9 @@ Similar for `&&`, we can enumarate for associativity, and for neutral element wh
 `const_True(x)` just returns `True` 
 
 All can be composed (because it's a monoid). 
+
+> 5. Represent addition modulo 3 as a monoid category.
+
+`add_0(x)` identity morphism `x + 0 % 3 == x % 3 == x`
+`add_1(x)`, `add_2(x)`, `add_N(x)` (where N is > 0) - infinite number of morphisms
+
