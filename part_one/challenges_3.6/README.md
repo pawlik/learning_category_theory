@@ -15,3 +15,24 @@ This is a partial order
 - any 2 objects in relation: definitely no
 
 This is a partial order.
+
+> 3. Considering that Bool is a set of two values True and False, show that it forms two (set-theoretical) monoids with respect to, re-spectively, operator &&(AND) and ||(OR).
+
+`||`
+
+- associativity: yes
+(a || b) || c = a || (b || c)
+
+(we can enumarate)
+
+a | b | c | (a OR b) OR c | a OR (b OR c) |
+--|---|---|-------------  | ---|
+1 | 1 | 0 | 1             | 1
+1 | 0 | 0 | 1             | 1
+0 | 1 | 0 | 1             | 1
+0 | 0 | 0 | 0             | 0
+1 | 1 | 1 | 1             | 1
+1 | 0 | 1 | 1             | 1
+0 | 1 | 1 | 1             | 1
+0 | 0 | 1 | 1             | 1
+
