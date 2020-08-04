@@ -36,3 +36,14 @@ a | b | c | (a OR b) OR c | a OR (b OR c) |
 0 | 1 | 1 | 1             | 1
 0 | 0 | 1 | 1             | 1
 
+- neutral element: False
+
+X || False = X 
+
+X | X OR False
+-|-
+1 | 1 
+0 | 0
+
+
+Similar for `&&`, we can enumarate for associativity, and for neutral element which is True. 
